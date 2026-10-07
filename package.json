@@ -1,0 +1,17 @@
+{
+  "name": "linkedin-jobs-ai-matcher",
+  "version": "1.0.0",
+  "description": "Collect LinkedIn jobs from the companies you follow into Postgres with Apify, score each one against your resume with Claude, and get a ranked HTML shortlist.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "ingest": "node --env-file-if-exists=.env src/ingest.js"
+  },
+  "dependencies": {
+    "apify-client": "^2.25.0",
+    "pg": "^8.23.1"
+  }
+}

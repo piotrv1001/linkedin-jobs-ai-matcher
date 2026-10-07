@@ -1,0 +1,6 @@
+# One company per line: a name, a LinkedIn slug or a company URL.
+Stripe
+Vercel
+Supabase
+Cloudflare
+https://www.linkedin.com/company/datadog
