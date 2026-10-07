@@ -16,8 +16,8 @@ if (!process.env.ANTHROPIC_API_KEY) {
 const Match = z.object({
     score: z.number().int().min(0).max(100).describe('Fit between the resume and the job, 0-100'),
     verdict: z.enum(['apply', 'maybe', 'skip']),
-    strengths: z.array(z.string()).describe('Up to 3 short reasons the candidate fits'),
-    gaps: z.array(z.string()).describe('Up to 3 short missing requirements or dealbreakers'),
+    strengths: z.array(z.string()).describe('Up to 3 reasons the candidate fits, 2-6 words each, like tags'),
+    gaps: z.array(z.string()).describe('Up to 3 missing requirements or dealbreakers, 2-6 words each, like tags'),
     pitch: z.string().describe('One sentence the candidate could open a cover letter with, or why to skip'),
 });
 
