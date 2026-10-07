@@ -127,3 +127,5 @@ resume.md          your resume (an example is included)
   price monitoring
 - [Clutch lead generation pipeline](https://github.com/piotrv1001/clutch-lead-generation-pipeline) — the same pattern
   for B2B leads
+- [Mercado Libre price tracker](https://github.com/piotrv1001/mercado-libre-price-tracker) and [brand mention monitor](https://github.com/piotrv1001/brand-mention-monitor) — the same pattern for marketplace
+  prices and social listening
