@@ -105,8 +105,8 @@ Pricing as of October 7, 2026:
 - **Apify:** $0.0008 per job listing plus $0.003 for its full details, so about $0.23 for 60 jobs. Prices drop on
   higher Apify plans; see [current pricing](https://apify.com/piotrv1001/linkedin-company-jobs-scraper/pricing). The
   Apify free plan includes $5 of monthly usage.
-- **Claude:** one request per new job. The resume is sent as a cached system prompt, so each extra job costs little
-  more than its description.
+- **Claude:** one request per new job. Our test run scored 60 jobs for $0.87 with the default `claude-opus-5-5`
+  (about $0.015 per job); the resume is sent as a cached system prompt. Only new jobs are scored on later runs.
 
 ## Project structure
 
